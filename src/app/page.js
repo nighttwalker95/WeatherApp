@@ -24,5 +24,8 @@ import { ImSpinner8 } from "react-icons/im";
 const APIKey = "4cdafd10eafff3dd0d3fab8ab517d5d7";
 
 export default function Home() {
+  const [data, setData] = useState(null);
+  const [location, setLocation] = useState("Bucharest");
+
   return <div>React App</div>;
 }
