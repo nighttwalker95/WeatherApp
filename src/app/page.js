@@ -26,7 +26,7 @@ const APIKey = "4cdafd10eafff3dd0d3fab8ab517d5d7";
 
 export default function Home() {
   const [data, setData] = useState(null);
-  const [location, setLocation] = useState("Zanjan");
+  const [location, setLocation] = useState("Tehran");
   const [inputValue, setInputValue] = useState("");
   const [animate, setAnimate] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
